@@ -39,29 +39,27 @@
         <a href="#">Магазин</a>
         <a class="breadcrumbs-active" href="#">Средства для ухода</a>
       </div>
-      <div class="content-block">
-        <div class="content-filter">
-          <form action="#" method="get">
-            <h2 class="content-filter-heading">Производители:</h2>
+      <div class="main-content">
+          <form class="filter" action="#" method="get">
+            <h2 class="filter-heading">Производители:</h2>
             <label><input type="checkbox" name="baxter" id="baxter-field" checked>Baxter of California</label>
             <label><input type="checkbox" name="mr-natty" id="mr-natty-field" >Mr Natty</label>
             <label><input type="checkbox" name="suavecito" id="suavecito-field" checked>Suavecito</label>
             <label><input type="checkbox" name="malin-goetz" id="malin-goetz-field" >Malin+Goetz</label>
             <label><input type="checkbox" name="murrays" id="murrays-field">Murray's</label>
             <label><input type="checkbox" name="american-crew" id="american-crew-field" checked>American crew</label>
-            <h2 class="content-filter-heading">Группы товаров:</h2>
+            <h2 class="filter-heading">Группы товаров:</h2>
             <label><input type="radio" name="product-group" value="shaving-accessories">Бритвенные принадлежности</label>
             <label><input type="radio" name="product-group" value="care-products">Средства для ухода</label>
             <label><input type="radio" name="product-group" value="accessories">Аксессуары</label>
-            <button type="button" value="Показать">
+            <button class="btn show-btn" type="button" value="Показать">
           </form>
-        </div>
-        <div class="content-products">
+        <div class="products">
           <div class="products-table">
             <article class="products-item">
-              <img src="img/img-name.jpg" alt="Baxter of California">
-              <div class="products-description">
-                <b class="products-description-title">Набор для путешествий "Baxter of California"</b>
+              <img src="img/img-name.jpg" alt="">
+              <div class="item-description">
+                <b class="item-description-title">Набор для путешествий «Baxter of California»</b>
                 <div class="buying-block">
                   <span class="price">2900 руб.</span>
                   <a class="btn buy-btn" href="#">Купить</a>
@@ -69,9 +67,9 @@
               </div>
             </article>
             <article class="products-item">
-              <img src="img/img-name.jpg" alt="Baxter of California">
-              <div class="products-description">
-                <b class="products-description-title">Увлажняющий кондиционер "Baxter of California"</b>
+              <img src="img/img-name.jpg" alt="">
+              <div class="item-description">
+                <b class="item-description-title">Увлажняющий кондиционер «Baxter of California»</b>
                 <div class="buying-block">
                   <span class="price">750 руб.</span>
                   <a class="btn buy-btn" href="#">Купить</a>
@@ -79,9 +77,9 @@
               </div>
             </article>
             <article class="products-item">
-              <img src="img/img-name.jpg" alt="Baxter of California">
-              <div class="products-description">
-                <b class="products-description-title">Гель для волос "Suavecito"</b>
+              <img src="img/img-name.jpg" alt="">
+              <div class="item-description">
+                <b class="item-description-title">Гель для волос «Suavecito»</b>
                 <div class="buying-block">
                   <span class="price">290 руб.</span>
                   <a class="btn buy-btn" href="#">Купить</a>
@@ -89,9 +87,9 @@
               </div>
             </article>
             <article class="products-item">
-              <img src="img/img-name.jpg" alt="Baxter of California">
-              <div class="products-description">
-                <b class="products-description-title">Глина для укладки волос "American crew"</b>
+              <img src="img/img-name.jpg" alt="">
+              <div class="item-description">
+                <b class="item-description-title">Глина для укладки волос «American crew»</b>
                 <div class="buying-block">
                   <span class="price">500 руб.</span>
                   <a class="btn buy-btn" href="#">Купить</a>
@@ -99,9 +97,9 @@
               </div>
             </article>
             <article class="products-item">
-              <img src="img/img-name.jpg" alt="Baxter of California">
-              <div class="products-description">
-                <b class="products-description-title">Гель для волос "American crew"</b>
+              <img src="img/img-name.jpg" alt="">
+              <div class="item-description">
+                <b class="item-description-title">Гель для волос «American crew»</b>
                 <div class="buying-block">
                   <span class="price">300 руб.</span>
                   <a class="btn buy-btn" href="#">Купить</a>
@@ -109,9 +107,9 @@
               </div>
             </article>
             <article class="products-item">
-              <img src="img/img-name.jpg" alt="Baxter of California">
-              <div class="products-description">
-                <b class="products-description-title">Набор для бритья "Baxter of California"</b>
+              <img src="img/img-name.jpg" alt="">
+              <div class="item-description">
+                <b class="item-description-title">Набор для бритья «Baxter of California»</b>
                 <div class="buying-block">
                   <span class="price">3900 руб.</span>
                   <a class="btn buy-btn" href="#">Купить</a>
@@ -119,11 +117,11 @@
               </div>
             </article>
           </div>
-          <div class="paginaror">
-            <a href="#">1</a>
-            <a class="page-active" href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
+          <div class="paginator">
+            <a class="btn page-btn" href="#">1</a>
+            <a class="btn page-btn page-active" href="#">2</a>
+            <a class="btn page-btn" href="#">3</a>
+            <a class="btn page-btn" href="#">4</a>
           </div>
         </div>
       </div>
