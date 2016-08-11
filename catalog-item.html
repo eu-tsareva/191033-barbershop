@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Baxter of California / Барбершоп «Бородинский»</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="main-header">
       <div class="container">
-        <a class="main-logo" href="/">Barbershop</a>
-        <nav class="main-menu">
+        <div class="header-logo">
+          <a href="/"><img src="img/header-logo.png" width="111" height="24" alt="Барбершоп «Бородинский»"></a>
+        </div>
+        <nav class="header-menu">
           <ul>
             <li>
               <a href="#">Информация</a>
@@ -19,8 +22,8 @@
             <li>
               <a href="#">Прайс-лист</a>
             </li>
-            <li>
-              <a class="menu-active" href="#">Магазин</a>
+            <li class="header-menu-active">
+              <a href="#">Магазин</a>
             </li>
             <li>
               <a href="#">Контакты</a>
@@ -33,20 +36,24 @@
       </div>
     </header>
     <main class="container">
-        <h1 class="main-heading">Набор для путешествий «Baxter of California»</h1>
-        <div class="breadcrumbs">
-          <a href="#">Главная</a>
-          <a href="#">Магазин</a>
-          <a href="#">Средства для ухода</a>
-          <a class="breadcrumbs-active" href="#">Набор для путешествий «Baxter of California»</a>
+      <h1>Набор для путешествий «Baxter of California»</h1>
+      <div class="breadcrumbs">
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Магазин</a></li>
+            <li><a href="#">Средства для ухода</a></li>
+            <li class="breadcrumbs-active">
+              <a href="#">Набор для путешествий «Baxter of California»</a>
+            </li>
+          </ul>
         </div>
-      <div class="main-content">
-        <div class="product-images">
-          <a class="images-main" href=#><img src="img/img-name.jpg" alt=""></a>
-          <div class="images-gallery">
-            <a class="images-item" href="#"><img src="img/img-name.jpg" alt=""></a>
-            <a class="images-item" href="#"><img src="img/img-name.jpg" alt=""></a>
-            <a class="images-item" href="#"><img src="img/img-name.jpg" alt=""></a>
+      <div class="product">
+        <div class="product-image">
+          <a class="image-main" href=#><img src="img/item-big.jpg" width="486" height="524" alt=""></a>
+          <div class="image-gallery">
+            <a class="image-item" href="#"><img src="img/item-small-1.jpg" width="166" height="175" alt=""></a>
+            <a class="image-item" href="#"><img src="img/item-small-2.jpg" width="166" height="175" alt=""></a>
+            <a class="image-item" href="#"><img src="img/item-small-3.jpg" width="166" height="175" alt=""></a>
           </div>
         </div>
         <div class="product-info">
