@@ -1,9 +1,14 @@
 body {
-  font: bold 14px/24px "PT Sans Narrow", sans-serif;
+  font: bold 14px/24px "PT Sans Narrow", Verdana, sans-serif;
+  color: #000000;
+}
+
+h1 {
+  font: bold 30px/42px "PT Sans Narrow", Arial, sans-serif;
   color: #000000;
 }
 
 h2 {
-  font: bold 30px/42px "PT Sans Narrow", sans-serif;
+  font: bold 24px/30px "PT Sans Narrow", Arial, sans-serif;
   color: #000000;
 }
